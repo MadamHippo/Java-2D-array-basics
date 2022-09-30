@@ -42,3 +42,11 @@ public class Combining {
 		System.out.println(Arrays.deepToString(newImage));
 	}
 }
+
+/*We traverse 2D arrays using nested loops.
+
+We can use loops of any type, but we typically use nested for loops to keep track of the indices
+Row-major order traverses through each row moving horizontally to the right through each row
+Column-major order traverses through each column moving vertically down through each column
+Row-major order and column-major order start and end on the same elements, but the paths are different.
+In order to convert row-major to column-major, we need to make the outer loop terminating condition depend on the number of columns, make the inner loop terminating condition depend on the number of rows, and flip the variables in our accessor within the inner loop to ensure that we don’t try to access outside of the 2D array since we flipped the direction of traversal.*/
