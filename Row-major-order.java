@@ -24,4 +24,31 @@ public class RowMajor {
 	}
 }
 
+/* 
+PRINTS
 
+Runner index: 0, Time index: 0
+Runner index: 0, Time index: 1
+Runner index: 0, Time index: 2
+Runner index: 0, Time index: 3
+Runner index: 0, Time index: 4
+Runner index: 0, Time index: 5
+Sum of runner 0 times: 435.9149999999999
+Average of runner 0: 72.65249999999999
+Runner index: 1, Time index: 0
+Runner index: 1, Time index: 1
+Runner index: 1, Time index: 2
+Runner index: 1, Time index: 3
+Runner index: 1, Time index: 4
+Runner index: 1, Time index: 5
+Sum of runner 1 times: 427.2030000000001
+Average of runner 1: 71.20050000000002
+Runner index: 2, Time index: 0
+Runner index: 2, Time index: 1
+Runner index: 2, Time index: 2
+Runner index: 2, Time index: 3
+Runner index: 2, Time index: 4
+Runner index: 2, Time index: 5
+Sum of runner 2 times: 429.401
+Average of runner 2: 71.56683333333334
+*/
